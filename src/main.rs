@@ -22,7 +22,7 @@ and you will get a result based on your number of guesses,
     loop {
         let mut guess = String::new();
 
-        println!("\n{}", message);
+        println!("{}\n", message);
 
         io::stdin()
             .read_line(&mut guess)
